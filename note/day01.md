@@ -25,7 +25,7 @@ public class HelloWorld{
     
      核心类库：Java自己写好的程序，可以调用（API）
 
-**ii.开发工具：java javac **
+**ii.开发工具：java javac**
 
 **4.java程序经javac编译后生成class文件在虚拟机上运行（我们的程序只需要开发一次，就可以在各种安装了JVM的系统平台上运行**
 
