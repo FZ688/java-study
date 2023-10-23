@@ -8,7 +8,7 @@
 
 ​	iii.调用随机数功能获取0-9之间的随机数:``int number = r.nextInt(10)+1;``
 
-指定区间(10~30)：``int number = r.nextInt(10,31)``
+指定区间(10~30)：``int number = r.nextInt(21)+10;``
 
 而在c++/和c里呢，`#include <cstdlib>` 、``#include <ctime>``
 
