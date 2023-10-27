@@ -72,7 +72,7 @@ public class StringDemo2 {
 
         //2.提取字符串中某个索引位置处的字符
         char c =s.charAt(1);
-        System.out.println(c);
+        System.out.println(c);//z
 
         //2.字符串遍历
         for (int i = 0; i < s.length(); i++) {
