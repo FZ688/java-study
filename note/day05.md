@@ -1,6 +1,6 @@
 # day05
 
-**1.方法**
+## 1.方法
 
 跟函数有点像（题外话）
 
@@ -23,11 +23,11 @@ public static int sum(int a,int b){
  }
 ```
 
-**iii.方法被调用时，是进入到**栈内存**中运行**
+### iii.方法被调用时，是进入到**栈内存**中运行
 
 参数传递也跟C语言函数差不多
 
-**iv.方法重载**
+### iv.方法重载
 
    **一个类**中，出现**多个方法的名称相同**，但是他们的**形参列表是不同的**，那么这些方法就称为**方法重载**
 
@@ -52,9 +52,9 @@ public static int sum(int a,int b){
 
 v.``return;``:可以用在无返回值的方法中，跳出bing'j结束当前方法的执行
 
-**2.案例**
+## 2.案例
 
-i.评委打分
+### i.评委打分
 
 ```java
 import java.util.Scanner;
@@ -90,7 +90,7 @@ public class Test3 {
 }
 ```
 
-ii.生成验证码
+### ii.生成验证码
 
 ```java
 import java.util.Random;
@@ -133,7 +133,7 @@ public class Test2 {
 }
 ```
 
-iii.加密（局限）
+### iii.加密（局限）
 
 ```java
 public class Test4 {
@@ -176,7 +176,7 @@ public class Test4 {
 
 主要是数组的反转，数字的分解
 
-iv.拷贝数组（几乎没有实用性）
+### iv.拷贝数组（几乎没有实用性）
 
 ```java
 public class Test5 {

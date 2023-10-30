@@ -1,6 +1,6 @@
 # day04
 
-**1.生成随机数(Random)**
+## 1.生成随机数(Random)
 
 ​	i.导包(自动的）:``imoport java.util.Random;``
 
@@ -16,7 +16,7 @@
 
 ​					             ``int number = rand()%10+1``
 
-**2.猜数字程序**
+## 2.猜数字程序
 
 ```java
 import java.util.Random;
@@ -43,7 +43,7 @@ public class RandomTest2 {
 }
 ```
 
-**3.<font color='red'>数组</font>**
+## 3.<font color='red'>数组</font>
 
 i.java定义数组有些格式跟C语言不同（但是定义的时候也可以跟C语言的一样）是如下格式:
 
@@ -92,7 +92,7 @@ public class ArrayTest6 {
 }
 ```
 
-**4.Java内存分配**
+## 4.Java内存分配
 
 * 方法区（字节码文件[^xxx.class      main]先加载到这里）
 * 栈(方法运行时所进入的内存，变量也是在这里[^main......])
@@ -108,7 +108,7 @@ new int[3]是创建一个数组对象，会在堆内存中开辟区域存储3个
 
 arr是变量，在栈中，arr存储的是数组对象在堆内存中的地址值
 
-**5.多个变量指向同一个数组**
+## 5.多个变量指向同一个数组
 
 ```java 
 int[] arr1={11,22,33};
@@ -117,7 +117,7 @@ int[] arr2= arr1;
 
 指向null时就不能访问了
 
-**6.数组反转**
+## 6.数组反转
 
 ```java
 public class ArrayReverse {
@@ -138,7 +138,7 @@ public class ArrayReverse {
 
 重点是那个i<j
 
-**7.随机排序**
+## 7.随机排序
 
 ```java
 import java.util.Scanner;

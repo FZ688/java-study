@@ -1,16 +1,16 @@
 # day07
 
-**1.this关键字**
+## 1.this关键字
 
-* **this**是一个变量，可以用在方法中，**来拿到当前对象**
+### this**是一个变量，可以用在方法中，**来拿到当前对象
 
-  ```java
-  public class Student{  
-  	public void pirntThis(){
-          System.out.println(this);
-      }
-  }
-  ```
+```java
+public class Student{  
+	public void pirntThis(){
+        System.out.println(this);
+    }
+}
+```
 
 ```java
 public class Test1 {
@@ -31,7 +31,7 @@ public class Test1 {
 				tudg.object.Student@4554617c
 				tudg.object.Student@4554617c
 
-**this执行原理**
+### this执行原理
 
 * this通过s1（存着new出来的Student对象的地址）找到Student对象，然后通过学生对象（存有类Student的地址）调用类Student中的printThis方法。
 
@@ -49,7 +49,7 @@ public void pirntThis(Student this){
 
 
 
-**this应用**
+### this应用
 
 * 解决变量名称冲突问题
 
@@ -75,19 +75,19 @@ s3.printPass(250);
 
 输出结果：pass
 
-**2.构造器**
+## 2.构造器
 
-i.构造器是一种特殊的方法：名字必须与所在类名一样，不能写返回类型
+### i.构造器是一种特殊的方法：名字必须与所在类名一样，不能写返回类型
 
- 构造器也可以重载
+ 构造器也可以**重载**
 
-ii.构造器的**特点**：
+### ii.构造器的**特点**：
 
 创建对象时，对象会去根据括号里的参数情况来选择对应构造器执行
 
 ``Student s =new Student()``
 
-iii.构造器的**应用**
+### iii.构造器的**应用**
 
 创建对象时，同时完成对对象成员变量的初始化赋值。（把对象要处理的值给构造器）
 
@@ -111,7 +111,7 @@ public class Test {
 }
 ```
 
-iv.其他注意事项
+### iv.其他注意事项
 
 * 类在设计的时候，如果不写构造器，java会自动生成一个无参数构造器
 

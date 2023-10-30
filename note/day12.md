@@ -1,6 +1,6 @@
 # day12
 
-**1.ArrayList使用**
+### 1.ArrayList使用
 
 Array是泛型类
 
@@ -68,7 +68,7 @@ public class ArrayListDemo1 {
 }
 ```
 
-**2.掌握从容器中找出某些数据并成功删除的技巧**
+### 掌握从容器中找出某些数据并成功删除的技巧
 
 ```java
 import java.util.ArrayList;
@@ -114,7 +114,7 @@ public class ArrayListTest2 {
 }
 ```
 
-**3.ArrayList综合案例**
+### ArrayList综合案例
 
 ```java
 public class Food {
